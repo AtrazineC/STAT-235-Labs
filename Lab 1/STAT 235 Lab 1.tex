@@ -1,0 +1,63 @@
+\documentclass[12pt, letterpaper, titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{color,graphicx,overpic} 
+\usepackage{fancyhdr}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{float}
+\usepackage{blindtext}
+\usepackage{longtable}
+\usepackage{scrextend}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{calc}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\usepackage{tabularx}
+\usepackage{mathrsfs}
+\usepackage{bookmark}
+\usepackage{apple_emoji}
+\usepackage{setspace}
+
+\mathtoolsset{showonlyrefs}  
+\allowdisplaybreaks
+
+\definecolor{mycolor}{rgb}{0, 0, 0}
+
+\geometry{top=2.54cm, left=2.54cm, right=2.54cm, bottom=2.54cm}
+\setlength{\headheight}{20pt}
+\setlength{\parskip}{0.3cm}
+\setlength{\parindent}{1cm}
+
+\newcommand{\B}{\includegraphics[height=1.5em, valign=B, raise=-0.2em]{BigB.png}} 
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\B enjamin Kong | 1573684}
+\lhead{\textit{ECE 321 Assignment 1}}
+\rfoot{Page \thepage}
+
+\begin{document} 
+\singlespacing
+
+\section{Main contributions}
+The paper is focused on gathering data regarding what practices are used in requirements engineering. The paper also compares results from older papers from 2003 and 2008 that studied the same topic in order to see change over time. This is evident through the title of the paper and further reinforced in the abstract and the rest of the article. For example, in the introduction, the authors cite an article from 2003 that discusses how the Agile process was not as widespread as the Waterfall model. Then, later in the paper, the results from the paper are compared to the results in the 2003 and 2008 papers. The paper then explains and visualizes these results for the reader to see the data in an easy-to-understand format. This is evident through the large number of charts and tables. The paper also goes in-depth regarding the experimental method used in order to justify the results that the authors gathered. This is evident from the thorough discussion of the experimental method used.
+
+\section{Criticisms}
+The paper is a good study of the most common practices used in requirements engineering. I believe the authors did a good job of keeping any bias from reaching the reader, and I feel like the authors were very objective during the analysis and collection of the data. It was interesting to me to see how practices have evolved over time|specifically, how the Agile process is slowly taking over the Waterfall process as the predominant practice in requirements engineering. I believe the experimental method was pretty good overall; however, I do have some criticisms. For example, I would like to see a larger sample size: in the article, there were only 247 participants and of these, only 119 actually completed the survey. Compared to the overall size of the industry, this seems like a pretty small number and I think more conclusive results could be achieved from a larger sample size. Furthermore, the paper noted that some participants only partially completed the survey, but that these results were still counted. This may affect the quality of the data: for example, if a person wasn't willing to complete the survey (which only took around 15 minutes to complete, according to the survey), then were they taking the survey seriously? It's possible the quality of the data could be improved if the survey was perhaps done in-person rather than online.
+
+\section{Questions}
+\begin{enumerate}
+    \item According to the paper, the Agile development methodology is most commonly used for software projects with 46\% of respondents indicating they used an Agile methodology. I personally experienced an Agile process (Scrum) during my most recent co-op, and I think one of the reasons it is so popular is because it allows developers to build incrementally. Another reason I think it is so effective is because of short sprints, where developers can break down tasks into manageable chunks. By breaking down tasks, the Agile process also helps prioritize what needs to be done.
+    \item About 45\%, according to Figure 3a in the paper. Evolutionary prototyping has been identified as most frequent. Throw-away prototyping is used less frequently in the Agile methodology because of the emergence of refactoring, which removes a lot of the need to throw-away previous code. The Agile methodology naturally also allows for continuous improvements and requirements can evolve and change.
+    \item The top three, in descending order, are ``Brainstorming,'' ``Interviews,'' and ``User Stories.'' I would likely use brainstorming for a project in order to come up with a creative solution to whatever problem I'm tackling. Brainstorming would also allow me to bounce ideas off of my teammates and/or friends. Brainstorming naturally also makes you think through your ideas carefully and allows others to give you feedback.
+    \item A potential benefit is that end users find the finished product easy to use. According to the data presented in the paper, 86\% of respondents who used semi-formal representations agreed that users found the end product was easy to use, while only 59\% agreed when an informal representation was used.
+    \item Yes. For example, in a small project, it would help to employ a waterfall methodology since for a small project, the requirements are likely to be pretty stable and the deliverables would likely be quite clear. The waterfall methodology would allow for structured development and is great for milestone-focused development, which suits a small project.
+\end{enumerate}
+    
+\end{document}
